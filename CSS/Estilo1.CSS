@@ -1,0 +1,183 @@
+#rodape{
+  
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+  
+  
+    #ColunaEsquerda {
+        width: 100%; /* define a largura do elemento como 20% da tela */
+        height: 100%; /* define a altura do elemento como 100% da altura da tela */
+        
+    }
+    
+    #ColunaDireita {
+      
+        width: 100%;
+        height: 100%; /* define a altura do elemento como 100% da altura da tela */
+        
+    }
+    
+    form {
+        text-align: center; /* alinha horizontalmente */
+        
+    }
+    
+    h3{
+      text-align: center;
+    }
+    form label {
+        display: inline-block;
+        width: 180px;
+        text-align: right; /* alinha horizontalmente */
+        vertical-align: middle; /* alinha verticalmente */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14x;
+        font-weight: bold;
+    }
+    
+    form input {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: middle; /* alinha verticalmente */
+    }
+    
+    form button {
+        display: block;
+        margin: 0 auto; /* alinha horizontalmente */
+    }
+    
+      .campos-pagamento {
+        display: none;
+      }
+      
+      .campos-pagamento.visivel {
+        display: block;
+      }
+    
+  
+      
+      .card {
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        position: relative;
+      }
+      
+      .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      
+      .card:hover .card-overlay {
+        opacity: 1;
+      }
+      
+      .card-description {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+      }
+      
+      .card-description-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+      }
+      
+      .add-to-cart {
+        margin-top: 10px;
+      }
+    
+      .cart-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .cart-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      
+      .cart-item-details {
+        flex-grow: 1;
+      }
+      
+      .cart-item-quantity {
+        display: flex;
+        align-items: center;
+      }
+      
+      .cart-item-quantity input {
+        width: 40px;
+        text-align: center;
+      }
+      
+      .cart-item-actions {
+        display: flex;
+      }
+      
+      .cart-item-actions button {
+        margin-left: 5px;
+      }
+    
+      .payment-option {
+        margin-bottom: 10px;
+      }
+      
+      .installments{
+        display: none;
+      }
+      .cardes {
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        position: relative;
+      }
+      
+      .cardes img {
+        object-fit: cover;
+      }
+  
+      .dados_pedido
+      {
+        padding: 1em;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(250, 250, 250);
+        box-shadow: 2px 2px 10px 1px
+        rgba(49, 49, 49, 0.132);
+        font-size: 25px;
+        width: 30em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }    
